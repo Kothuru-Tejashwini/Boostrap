@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricbuzz Clone</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        .card {
+            margin-bottom: 30px;
+        }
+        .footer-text {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Cricbuzz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Live Scores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Matches</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Rankings</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <h2 class="text-center mb-5">Cricket Matches & Highlights</h2>
+        
+        <!-- First Row of Cards -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202311/untitled_-_2023-11-17t160526-sixteen_nine.jpg?size=948:533" class="card-img-top" alt="Match 1">
+                    <div class="card-body">
+                        <h5 class="card-title">India vs Australia</h5>
+                        <p class="card-text">India 324/6 (50 overs)</p>
+                        <p class="card-text"><small class="text-muted">Last updated 5 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2024-10/14/full/1728909126-8984.jpg?im=FeatureCrop,size=(826,465)" class="card-img-top" alt="Match 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Pakistan vs England</h5>
+                        <p class="card-text">Pakistan 210/7 (40 overs)</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="https://static.toiimg.com/thumb/imgsize-23456,msid-85996722,width-600,resizemode-4/85996722.jpg" class="card-img-top" alt="Match 3">
+                    <div class="card-body">
+                        <h5 class="card-title">South Africa vs New Zealand</h5>
+                        <p class="card-text">South Africa 290/8 (48 overs)</p>
+                        <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row of Cards -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-primary text-white text-center shadow p-3">
+                    <blockquote class="blockquote mb-0">
+                        <p>"Play hard, dream big."</p>
+                        <footer class="blockquote-footer text-white">
+                            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">IPL 2024</h5>
+                        <p class="card-text">Exciting matches coming up next week. Stay tuned for more updates!</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2023/07/23/2609474-ipl-bcci.jpg" class="card-img-top" alt="IPL News">
+                    <div class="card-body">
+                        <h5 class="card-title">IPL 2024 Auction</h5>
+                        <p class="card-text">Top players up for grabs in the IPL 2024 auction.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 1 hour ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Row of Cards -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="https://images.hindustantimes.com/img/2022/01/18/1600x900/_90d5d75c-52b3-11ec-89a1-15e531c1f37a_1642671424731.jpg" class="card-img-top" alt="Match Highlight">
+                    <div class="card-body">
+                        <h5 class="card-title">India vs England</h5>
+                        <p class="card-text">England's stunning chase in the 3rd T20.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 30 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="https://static.toiimg.com/photo/85829752.cms" class="card-img-top" alt="Player of the Series">
+                    <div class="card-body">
+                        <h5 class="card-title">Player of the Series</h5>
+                        <p class="card-text">Virat Kohli bags the Player of the Series award for his outstanding performance.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 2 hours ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-success text-white text-center shadow p-3">
+                    <blockquote class="blockquote mb-0">
+                        <p>"Cricket is life."</p>
+                        <footer class="blockquote-footer text-white">
+                            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3 mt-4">
+        <p class="footer-text">&copy; 2024 Cricbuzz. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
